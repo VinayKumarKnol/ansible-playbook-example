@@ -10,7 +10,7 @@ Set up guide:
   using the following command <code>sudo gedit hosts.</code> <br>
   Also specify the following: <br>
   <code>
-    [groupofservers]
-    `ip address of your ec2 server` ansible_user=`your ennsible user id`
+    [groupofservers]<br>
+    `ip address of your ec2 server` ansible_user=`your ennsible user id`<br>
   </code>
 
