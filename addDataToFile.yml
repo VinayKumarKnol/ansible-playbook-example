@@ -1,0 +1,11 @@
+---
+- hosts: webservers
+  tasks: 
+    - name: append some content to helloWorld.txt
+      copy:
+        content: |
+                 hello, server
+                  -user.
+        dest: /tmp/helloWorld.txt
+        
+
